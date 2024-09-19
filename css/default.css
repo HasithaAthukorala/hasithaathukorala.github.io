@@ -802,6 +802,55 @@ properly.
 	text-align: center !important;
 }
 
-
-
-
+ 
+ .resume .resume_item:last-child {
+   display: flex;
+   margin-bottom: 10px;
+   align-items: center;
+ }
+ 
+ .resume .resume_work ul {
+   padding-left: 40px;
+   overflow: hidden;
+ }
+ 
+ .resume ul li {
+   position: relative;
+ }
+ 
+ .resume ul li .date {
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 15px;
+ }
+ 
+ .resume ul li .info {
+   margin-bottom: 20px;
+ }
+ 
+ .resume ul li:last-child .info {
+   margin-bottom: 0;
+ }
+ 
+ .resume .resume_work ul li:before {
+   content: "";
+   position: absolute;
+   top: 5px;
+   left: -25px;
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   border: 2px solid #0bb5f4;
+ }
+ 
+ .resume .resume_work ul li:after {
+   content: "";
+   position: absolute;
+   top: 14px;
+   left: -21px;
+   width: 2px;
+   height: 115px;
+   background: #0bb5f4;
+ }
+ 
+ 
